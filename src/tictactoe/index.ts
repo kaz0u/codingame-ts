@@ -1,7 +1,9 @@
 
 // Exercice from https://www.codingame.com/ide/puzzle/tictactoe
 
-type LineIndices = [number, number, number];
+import type { Tuple } from "../utils/Tuple"
+
+type LineIndices = Tuple<number, 3>;
 class LineView {
     private indices: LineIndices;
     public constructor(private squares: string[], ...indices: LineIndices) {
