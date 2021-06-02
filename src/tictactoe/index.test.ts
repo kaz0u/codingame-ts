@@ -1,6 +1,6 @@
 import { stripIndent } from 'common-tags'
 import ticTacToe from "./index"
-import { MockConsoleLog } from "../utils/index"
+import { MockConsoleLog } from "../utils/MockConsoleLog"
 
 describe("Tic Tac Toe", () => {
     beforeEach(() => {

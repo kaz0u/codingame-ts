@@ -1,6 +1,6 @@
 import { stripIndent } from 'common-tags'
 import vanEcksSequence from "./index"
-import { MockConsoleLog } from "../utils/index"
+import { MockConsoleLog } from "../utils/MockConsoleLog"
 
 describe("Van Eck's sequence", () => {
     beforeEach(() => {
