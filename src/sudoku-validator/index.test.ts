@@ -1,6 +1,6 @@
 import { stripIndent } from 'common-tags'
 import sudokuValidator from "./index"
-import { MockConsoleLog } from "../utils/MockConsoleLog"
+import { MockConsoleLog } from "utils"
 
 describe("Sudoku Validator", () => {
     beforeEach(() => {

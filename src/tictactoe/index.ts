@@ -1,7 +1,7 @@
 
 // Exercice from https://www.codingame.com/ide/puzzle/tictactoe
 
-import type { Tuple } from "../utils/Tuple"
+import type { Tuple } from "utils"
 
 type LineIndices = Tuple<number, 3>;
 class LineView {
@@ -13,7 +13,7 @@ class LineView {
         const nbO = this.indices.reduce((nbO, index) => {
             return (this.squares[index] === "O") ? nbO + 1 : nbO;
         }, 0);
-            
+
         if (nbO !== 2)
             return undefined;
 

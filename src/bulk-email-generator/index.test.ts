@@ -1,6 +1,6 @@
 import { stripIndent } from 'common-tags'
 import bulkMailGenerator from "./index"
-import { MockConsoleLog } from "../utils/MockConsoleLog"
+import { MockConsoleLog } from "utils"
 
 describe("Bulk email generator", () => {
     beforeEach(() => {

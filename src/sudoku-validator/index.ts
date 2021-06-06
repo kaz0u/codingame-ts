@@ -1,7 +1,7 @@
 
 // Exercice from https://www.codingame.com/ide/puzzle/tictactoe
 
-import type { Tuple } from "../utils/Tuple"
+import type { Tuple } from "utils"
 
 type Index2D = Tuple<number, 2>;        // Sudoku square coordinates
 type Unit = Tuple<number, 9>;           // Sudoku row, column or box of 9 squares
