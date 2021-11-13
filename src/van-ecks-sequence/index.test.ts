@@ -1,6 +1,6 @@
-import { stripIndent } from 'common-tags'
-import vanEcksSequence from "./index"
-import { MockConsoleLog } from "utils"
+import { stripIndent } from 'common-tags';
+import vanEcksSequence from "./index";
+import { MockConsoleLog } from "utils";
 
 describe("Van Eck's sequence", () => {
     beforeEach(() => {
@@ -64,4 +64,4 @@ describe("Van Eck's sequence", () => {
             34143`;
         MockConsoleLog.test(vanEcksSequence, input, expectedOutput);
     });
-})
+});

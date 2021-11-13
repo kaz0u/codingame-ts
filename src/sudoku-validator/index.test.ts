@@ -1,6 +1,6 @@
-import { stripIndent } from 'common-tags'
-import sudokuValidator from "./index"
-import { MockConsoleLog } from "utils"
+import { stripIndent } from 'common-tags';
+import sudokuValidator from "./index";
+import { MockConsoleLog } from "utils";
 
 describe("Sudoku Validator", () => {
     beforeEach(() => {
@@ -122,4 +122,4 @@ describe("Sudoku Validator", () => {
             false`;
         MockConsoleLog.test(sudokuValidator, input, expectedOutput);
     });
-})
+});

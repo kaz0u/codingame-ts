@@ -1,6 +1,6 @@
-import { stripIndent } from 'common-tags'
-import ticTacToe from "./index"
-import { MockConsoleLog } from "utils"
+import { stripIndent } from 'common-tags';
+import ticTacToe from "./index";
+import { MockConsoleLog } from "utils";
 
 describe("Tic Tac Toe", () => {
     beforeEach(() => {
@@ -68,4 +68,4 @@ describe("Tic Tac Toe", () => {
             false`;
         MockConsoleLog.test(ticTacToe, input, expectedOutput);
     });
-})
+});

@@ -1,7 +1,7 @@
 
 // Exercice from https://www.codingame.com/ide/puzzle/tictactoe
 
-import type { Tuple } from "utils"
+import type { Tuple } from "utils/types";
 
 type LineIndices = Tuple<number, 3>;
 class LineView {
@@ -48,7 +48,7 @@ export default function ticTacToe(readline: () => string) {
 
     let index: number | undefined;
     for (const view of lineViews) {
-        index = view.winningMove()
+        index = view.winningMove();
         if (index) break;
     }
 

@@ -1,6 +1,6 @@
-import { stripIndent } from 'common-tags'
-import bulkMailGenerator from "./index"
-import { MockConsoleLog } from "utils"
+import { stripIndent } from 'common-tags';
+import bulkMailGenerator from "./index";
+import { MockConsoleLog } from "utils";
 
 describe("Bulk email generator", () => {
     beforeEach(() => {
@@ -92,4 +92,4 @@ describe("Bulk email generator", () => {
             by two`;
         MockConsoleLog.test(bulkMailGenerator, input, expectedOutput);
     });
-})
+});
